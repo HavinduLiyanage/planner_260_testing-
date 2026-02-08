@@ -97,6 +97,8 @@ class Calendar:
         conflict = None
 
         for to_check in that_day:
+            if to_check.get_description() == "Day does not exist":
+                 raise ConflictsException("Day does not exist.")
             if to_check.get_description() != "Day does not exist":
                 # Does the start time fall between this meeting's start and end times?
                 if m_start >= to_check.get_start_time() and m_start <= to_check.get_end_time():
@@ -124,39 +126,33 @@ class Calendar:
         """
         self.occupied[month][day] = []
 
-    def print_agenda(self, month: int) -> str:
+    def print_agenda(self, month: int, day: int = None) -> str:
         """
-        Prints the agenda for a given month in string format.
+        Prints the agenda for a given month or day in string format.
 
         :param month: The month of the meeting (1-12)
-        :return: A formatted string with all meetings in the specified month.
+        :param day: The day of the meeting (1-31). If None, prints agenda for the whole month.
+        :return: A formatted string with all meetings.
         """
-        if month not in self.occupied or not any(self.occupied[month].values()):
-            return "No Meetings booked for this month.\n\n"
+        if day is None:
+            if month not in self.occupied or not any(self.occupied[month].values()):
+                return "No Meetings booked for this month.\n\n"
 
-        agenda = f"Agenda for {month}:\n"
-        for day, meetings in self.occupied[month].items():
-            for meeting in meetings:
+            agenda = f"Agenda for {month}:\n"
+            for d, meetings in self.occupied[month].items():
+                for meeting in meetings:
+                    agenda += str(meeting) + "\n"
+
+            return agenda
+        else:
+            if month not in self.occupied or day not in self.occupied[month] or not self.occupied[month][day]:
+                return "No Meetings booked on this date.\n\n"
+
+            agenda = f"Agenda for {month}/{day} are as follows:\n"
+            for meeting in self.occupied[month][day]:
                 agenda += str(meeting) + "\n"
 
-        return agenda
-
-    def print_agenda(self, month: int, day: int) -> str:
-        """
-        Prints the agenda for a given day in string format.
-
-        :param month: The month of the meeting (1-12)
-        :param day: The day of the meeting (1-31)
-        :return: A formatted string with all meetings on the specified date.
-        """
-        if month not in self.occupied or day not in self.occupied[month] or not self.occupied[month][day]:
-            return "No Meetings booked on this date.\n\n"
-
-        agenda = f"Agenda for {month}/{day} are as follows:\n"
-        for meeting in self.occupied[month][day]:
-            agenda += str(meeting) + "\n"
-
-        return agenda
+            return agenda
 
     def get_meeting(self, month: int, day: int, index: int) -> 'Meeting':
         """
