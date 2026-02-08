@@ -1,0 +1,110 @@
+Course Title: Software Testing - CSI3105.2
+
+Module: Module O: Orientation
+  - Item: Orientation
+  - Item: Using the Modules
+
+Module: Module 1: Introduction to Software Testing
+  - Item: Introduction to Software Testing (Complete before the workshop)
+  - Item: Module 1 Slides
+      Link: viewer/files/Uploaded%20Media/CSI_3105_module_1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 1 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_one-1.docx?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/FileIO.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/AllMyFriends.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/interest.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/MyFriends.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/MyFriends.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/Person.py?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Workshop/ Module recap recording
+
+Module: Module 2: Mathematical Preliminaries
+  - Item: Mathematical Preliminaries (Complete before the workshop)
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_02d_String_languages_regex-2.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 2 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_two.docx?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/WKshop2-textbookinfo-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 2 Slides
+      Link: viewer/files/Uploaded%20Media/Module%202%20slides-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 2 Workshop Answers
+      Link: viewer/files/Uploaded%20Media/workshop_2_answers-1-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 2 Recap
+
+Module: Module 3: Test Automation
+  - Item: Test Automation (Complete before the workshop)
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_03e_More_on_automated_testing.pptx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 3 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_three-1.docx?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/simple_arithmetic.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/test_arithmetic.py?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/test_arithmetic_div.py?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 3 Slides
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_03.pdf?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/Module_3_slides-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 3 Recap
+
+Module: Module 4: Test Case Generation - Domain Partitioning
+  - Item: Test Case Generation - Domain Partitioning (Complete before the workshop)
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_04_JUnit_EXAMPLE_Weak_ROBUST-1.pptx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 4 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_four.docx?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/WKshop4-textbookinfo-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 4 Slides
+      Link: viewer/files/Uploaded%20Media/CSI_3105_Module_04-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 4 Recap
+  - Item: Module 4 Workshop Answers
+      Link: viewer/files/Uploaded%20Media/Mod%204%20workshop.docx?canvas_=1&amp;canvas_qs_wrap=1
+
+Module: Module 5: Test Case Generation - Structural Testing - Control Flow
+  - Item: Test Case Generation - Structural Testing - Control Flow (Complete before the workshop)
+  - Item: Module 5 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_five.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 5 Slides
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_05.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 5 Recap
+  - Item: Temp workshop ans
+      Link: viewer/files/Uploaded%20Media/Workshop%205%20paths-1.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 5 Workshop Answers
+      Link: viewer/files/Uploaded%20Media/Workshop%205%20ans.docx?canvas_=1&amp;canvas_qs_wrap=1
+
+Module: Module 6: Test Case Generation - Structural Testing - Data Flow
+  - Item: Test Case Generation - Structural Testing - Data Flow (Complete before the workshop)
+  - Item: Module 6 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_six-1.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 6 Slides
+      Link: viewer/files/Uploaded%20Media/CSI3105_Module_06.pdf?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/05%20Lecture_06_DF_Testing-2020_alternate-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 6 Recap
+  - Item: Module 6 Workshop Answers
+      Link: viewer/files/Uploaded%20Media/Module_6_workshop_v01.docx?canvas_=1&amp;canvas_qs_wrap=1
+
+Module: Module 7: Object-oriented Testing
+  - Item: Object-oriented Testing (Complete before the workshop)
+  - Item: Module 7 Workshop 
+      Link: viewer/files/Uploaded%20Media/module_seven.zip?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_seven.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 7 Slides
+      Link: viewer/files/Uploaded%20Media/CSI3105_Lecture_07.pdf?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/CSI3105_Lecture_07_OOP_class-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+
+Module: Module 8: Test Case Generation - Domain Partitioning and Combinatorial Testing
+  - Item: Module 8: Test Case Generation - Domain Partitioning and Combinatorial Testing (Complete before the workshop)
+  - Item: Module 8 Workshop 
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_eight.docx?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/CSI3105_Workshop8-info-bk1-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Temp workshop ans-2
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop08-comb-18_sol-1.pdf.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 8 Slides
+      Link: viewer/files/Uploaded%20Media/CSI3105_Lecture_08_Combinatorial_Testing_2025.pdf?canvas_=1&amp;canvas_qs_wrap=1
+
+Module: Module 9: Test Case Generation - Model-based Testing
+  - Item: Test Case Generation - Model-based Testing (Complete before the workshop)
+      Link: viewer/files/Uploaded%20Media/CSI_3105_module_09.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 9 Workshop 
+      Link: viewer/files/Uploaded%20Media/module_nine.zip?canvas_=1&amp;canvas_qs_wrap=1
+      Link: viewer/files/Uploaded%20Media/CSI3105_workshop_nine.docx?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 9 Slides
+      Link: viewer/files/Uploaded%20Media/CSI_3105_module_09-1.pdf?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 9 Workshop Ans
+      Link: viewer/files/Uploaded%20Media/module_nine_for_tutors.zip?canvas_=1&amp;canvas_qs_wrap=1
+  - Item: Module 9 Recap

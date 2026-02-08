@@ -1,0 +1,313 @@
+
+ 
+  
+Part 1:  
+CSI3105: Software Testing Case Study   
+Marks: Worth 40% of the total marks for the unit.       
+       
+Length: no word limit.       
+Relevant Objectives from the Unit Outline        
+Apply different test case design techniques, recognising the strength and weakness of each and being able to choose techniques appropriately       
+Examine a suite of test cases in terms of test adequacy coverage       
+Implement a case study, demonstrating appropriate use of testing techniques and generate the test harnesses for the software system.            
+Submission instructions       
+An electronic copy of all deliverables via Canvas.       
+
+ 
+ Referencing       
+All sources of references must be cited (in text citation) and listed (end reference list). For details about referencing and the required format, please refer to the ECU Referencing Guide, which can be found from the following URL:   
+http://www.ecu.edu.au/research/refguide/refguide.html       
+       
+Plagiarism       
+Please ensure that you have read and understood the information on plagiarism provided on Blackboard (Under the area: Essential Information).       
+       
+Team Formation        
+This issue will be dealt with on a case-by case basis as to whether a penalty will be imposed. In certain circumstances, it may be possible for two teams that have lost team members to merge as one.        
+       
+Submit the contact details of your team to the tutor by the end of Week six. 
+No transfers to other teams. If you decide to leave your team, or you are voted off the team, please consider the following:       
+The team member leaving may lose 10% of the awarded marks for this assignment;       
+A team that removes a member may lose 5% of the awarded marks for this assignment; and         
+A team that recruits a student allocated to another team may lose 10% of the awarded marks for this assignment.       
+             
+Task       
+You have just been hired as a software tester by a software company. You are asked to carry out software testing of a prototype system that the company has contracted a group of students to develop. Source code and limited amount of documentation associated with this software is available (find attached). Using the source code and the documentation provided for this initial prototype, the team leader for testing has asked your team to implement the testing of the system using a Python based IDE and pytest and other associated testing libraries that may help.        
+       
+Details about the specific tasks associated with testing the software system can be found in the second half of this document.  The assignment consists of you working in small teams. It is important that in the first five weeks you organise yourselves into two/ three person teams and provide your lecturer(s) with the email addresses (ECU Student Account) of all members of your team. It is important for your team to meet and work on the project at regular intervals.       
+       
+The complete list of deliverables at the completion of this assignment is shown in the table below.       
+       
+  
+
+     
+Table 1: Key Deliverables       
+        
+Deliverable       
+  Assignment mark       
+Report A     
+report describing:       
+your testing approach/process,        
+two sections; each addressing the tasks listed in the case study document respectively. Approaches/methods used in each task and rationale for these must be provided and discussed.          
+how to execute your test cases,        
+Test Plan and defect report  
+Results from implemented test cases (e.g.     screen shot from pytest window on completion of test case execution), the faults you found and how they can be reproduced.       
+Discussions and Conclusions       
+       
+30     
+Other Relevant Artefacts       
+Submit the whole project.
+All python files associated with implementation and execution of test cases (pytest tests) must be submitted – submit as zip files with appropriate names.        
+       
+10       
+       
+     
+Minutes of meetings        
+Complete set of deliverables (listed above in this table) are to be submitted electronically (via Blackboard) as well as providing a hard copy to your lecturer.   – See note below.       
+       
+No marks allocated but MUST be SUBMITTED       
+Peer Review Form       
+Each student is to email a copy of the completed form to the lecturer.       
+No marks allocated but students will not be able to be awarded   
+any marks for the assignment if this item is not submitted.      
+       
+In the section of your report for your testing approach, it should include a description of what steps you have undertaken (so that someone can repeat your approach by following the steps that you have outlined) and what testing techniques you have employed together with relevant artefacts (e.g. control flow graph in the case of whitebox testing or equivalence classes in the case of black-box testing).  Your report should have a Result section followed by a section on Discussion and Conclusion.       
+        
+Meetings -- Minutes       
+Do not leave the compilation of minutes to the end of the project—it is an on-going activity.   This deliverable is marked on a pass/fail basis, with a fail resulting in the loss of up to two (2) marks.  Record your minutes following the template provided in Appendix 1.  It would be expected that a team would meet weekly to discuss progress. Note that each item on the action list must have a unique identifier across the life of the project.       
+       
+Peer Assessment       
+Each person’s peer assessment (Word document) should be emailed to Luke Kelly by the same date/time as other deliverables in part B.    
+       
+Defect Report       
+Each member of the team is expected to develop test cases associated with one or more functionality of the software system by applying appropriate testing techniques (for example, black-box: equivalence partitioning, boundary value analysis; white-box: control-flow, data-flow). The test suite should be as complete as possible for testing your system. On each of the submitted suite of testcases, the name of the team member responsible for its creation should be clearly visible. This item of assessment may be used by the lecturer to adjust the marks for the individuals in the team if there is a wide disparity in terms of the quality of the work between different team members in this section.       
+        
+            
+Appendix 1  Sample “Minute” Template  
+Team#1       
+Minute No: 002   Date: 15   
+March 2022       
+Time: 9:00-10:30am       
+Venue: Building 13 Conference Room Participants: Who attended?       
+Apologies: Who said they couldn’t make it?       
+Absent: Who was supposed to attend but didn’t tender their apologies       
+Discussion:       
+1. Action List       
+Items on the action list were completed or progressing as follows:       
+Item 1: Something about item 1. Status: Closed.       
+Item 2: Something about item 2. Status: Open.       
+2. General       
+What happened at the meeting including action items assigned at this meeting? e.g. There is a problem when attempting to set up a schedule for auto-emailing a group of customers at regular intervals. Mike agreed to fix this problem by the next meeting [Action:Mike].       
+3. Where To From Here   What   
+you are going to do next.  Actions:       
+ID   
+Action       
+Who       
+Due Date     
+Status       
+1     
+Easier duplicate searching/testing       
+Mike       
+Next Meet    
+Closed       
+2     
+Sequestering records for client confidentiality       
+Mike       
+Next Meet    
+Closed       
+3     
+Automating actions when emailing a group        
+Mike       
+Next Meet    
+Open       
+       
+       
+       
+Appendix 2 Peer Assessment Form       
+Peer assessment is an important part of the group learning process in terms of group dynamics, equity and fairness. You need to objectively evaluate the contribution of each of your colleagues (and yourself) to your group project.       
+What to do:       
+When your project is due, enter your name and the names of the other members of your team at the top of the table below.       
+For each item, enter the appropriate number (0-5) for each individual (including yourself, which is a self-assessment): 0 = no participation, 1 = little participation, 2 = some participation, 3 = adequate participation, 4 = active participation, 5 = outstanding participation.       
+When complete, email this form to your lecturer on or before the assignment due date. Failure to email this form may result in your entire team not receiving a mark for the project component of the unit.       
+Note that this peer assessment form may be used in part to calculate your final grade for the assignment  (see separate document, “Peer Review Info”).       
+       
+Your Name:       
+Your Student Number:       
+Date:       
+Group Number:       
+       
+Item/Name       
+Your    
+Name   
+Name    of other  team member  
+Name   of other team    member    
+Name   of other team member 
+Name   of other team    member   
+Name   of other team  member   
+Completed a fair share of the tasks, on time, to the quality standard expected by the team  
+       
+   
+       
+       
+       
+       
+       
+At meetings, volunteered for tasks and offered constructive input       
+       
+       
+       
+       
+       
+       
+Responded in a timely and courteous manner to communication from other  team members       
+       
+       
+       
+       
+       
+       
+Worked cooperatively and supportively with the rest of 
+the team       
+       
+       
+       
+       
+       
+       
+Made a worthwhile  contribution to the final product  
+          
+       
+       
+       
+       
+       
+       
+ Comments (if you give any team member a mark of zero (0), one (1) or five (5), you must provide a quantifiable comment for each mark):       
+       
+       
+          
+    
+
+
+Part 2:
+   
+Event Booking Software Component System     
+This Python-based prototype component is a booking system with 6 high-level functions.   
+        
+Requirements Specification  
+1. System Overview  
+The Meeting Scheduling System is a Python-based application designed to manage and facilitate various scheduling tasks within an organisation. Its primary functionalities include scheduling meetings, booking vacations, checking room and employee availability, and viewing agendas. This specification focuses on user inputs and their interaction with the system.  
+Functional Requirements  
+Inputs 
+Menu:(Int) between 0 – 6 Each corresponding to a different choice 
+Month: (int)  
+Day: (int)  
+Start hour: (int)  
+End hour: (int)  
+Description: (String)  
+Room: (String) – list of valid rooms 
+JO18.330 
+JO7.221 
+JO15.236
+JO1.230 
+JO34.536 
+JO19.230 
+ML5.123 
+ML18.330 
+ML21.520 
+ML13.213 
+ML21.310 
+ML13.218 
+Person: (String) – list of valid people 
+Justin Gardener 
+Ashley Matthews 
+Mary Jane Cook 
+Rose Austin 
+Mike Smith 
+Helen West 
+Steven Lewis 
+Edith Cowan 
+Mark Colin 
+Jacquie Martin 
+Jaci Johnston 
+Travis Colin 
+Ashley Martin 
+ 
+*NOTE FROM HEAD DEV: Please note that some options can be provided “cancel” or ‘all”, but this was not captured in the document. 
+ 
+Core Functionalities  
+Menu: Select appropriate functionality.  
+Input: Menu selection (Int) between 0 – 6.  
+Schedule a Meeting: Allows users to schedule meetings by providing specific details.  
+Input: Month (Int) between 1 – 12, day (int) between 1 – 31, start hour (int) between 0 - 23, end hour (int) between 0 - 23, room (string), person (string), description (string).  
+Booking Vacation Dates: Enables booking of vacation periods for employees.  
+Input: Start month (Int) between 1 – 12, start day (int) between 1 – 31, end month (Int) between 1 – 12, end day (int) between 1 – 31, person (string).  
+Checking Room Availability: Function to check if a room is available at a given time. o Input: Month (Int) between 1 – 12, day (int) between 1 – 31, start hour (int) between 0 - 23, end hour (int) between 0 – 23.  
+Checking Person Availability: Allows checking if a person is available for a meeting. o Input: Month (Int) between 1 – 12, day (int) between 1 – 31, start hour (int) between 0 - 23, end hour (int) between 0 – 23.  
+Checking Room Agenda: Users can view the schedule of a room.  
+Input: Month (Int) between 1 – 12, day (int or string) between 1 – 31/ “all”, room (string).  
+Checking Person Agenda: Enables viewing an individual's schedule.  
+Input: Month (Int) between 1 – 12, day (int or string) between 1 – 31/ “all”, person (string).  
+User Input and Interaction  
+Input Mechanism  
+• Command-Line Interface (CLI): The system is operated through CLI, where users enter commands and data in response to prompts.  
+Input Types and Formats  
+Date and Time Inputs: Users must follow the prompts on the CLI.  
+Text Inputs: For names and descriptions, case sensitivity should be properly handled.  
+Numeric Inputs: For options selection etc., inputs should be numeric, handled as integers.  
+Input Validation and Error Handling  
+Date Validity: The system should validate dates, especially considering leap years and month-specific days (e.g., 29/02, 30/11).  
+Time Constraints: Special attention is required for handling edge cases like booking events between 11:00 PM and 11:59 PM.  
+Vacation Date Logic: The system should prevent illogical vacation bookings, such as a start date on the 32nd day of a month.  
+3.4 User Feedback  
+Error Messages: Clear and informative error messages should be displayed for invalid inputs.  
+Confirmation Messages: On successful input, the system should provide appropriate confirmation messages.  
+This information was not correctly documented during the requirements gathering and planning stages, output has not been correctly collated. Output exists, but its hardcoded in the software and needs to be discovered.
+Other functionality will provide relevant output to console, of which was not stated in the requirements specification/ nor provided by the users. For these messages, please use the program to find the appropriate outputs.
+        
+
+Additional Notes         
+The graphical user interface of this initial version prototype is rather primitive at this point in time and will be improved in the next iteration of development. As the ultimate aim of this development is to produce a reusable component to be used within the organisation, the project leader wanted to extensively test this version. In order to do this, the decision is to use PyCharm or an associated IDE and pytest (with help from other libraries if needed) in the first instance – to generate test cases and to automate some of the testing activities.         
+        
+You are provided the source code (Planner-260.zip). There are seven classes, each in its own Python file:         
+Planner        
+Meeting        
+Calender         
+ConflictsException         
+Room        
+Person        
+Organisation        
+         
+There is limited documentation within these files. Some limited black box testing has also been completed by the previous team (unfortunately the test cases and code has been lost). They identified that there were issues with how the software handled event bookings associated with certain time slots, days and months of the year. 
+These include:        
+In the event of a leap year, Feb 29 is valid but unable to book any event on that day.      
+Issues associated with booking an event between 11.00pm –  
+11.59pm        
+Bookings associated with 30th November        
+Input checking and Ambiguous error messages        
+Case sensitivity associated with inputs        
+Bookings associated with certain days of the month        
+A vacation can be booked with a start date of the 32nd day of a month        
+          
+You are part of a team of software testers that has just joined the company.  The project manager had not been able to locate the suite of test cases implemented by the previous team and thus has decided a set of testing tasks that must be completed by your team, specifically:        
+Re-visit and re-implement test cases for black-box (EP and BVA) testing of the software    
+(with pytest and associated libraries)     
+The EQ test cases must meet the weak robust testing criteria, as time is short in this process, we need a minimal set of test cases that meet weak robust, extra test cases will be marked as redundant.     
+Both the EQ and BVA test will help to check and verify the problems identified by the previous team of testers (as listed above).           
+Re-visit unit testing – We need a CFG of each class, except the planner class.     
+Firstly, devise CFGs for the planner, calendar, room and person class.     
+Secondly, due to time limits, we will not test the planner class.   
+Take into consideration the OO nature of this software, design and implement test cases for structural testing, focusing achieving the following coverage: Statement coverage for the Calendar class, Room class AND the Person class. 
+Compile a testing report that:
+Details your testing approach/process,        
+how to execute your test cases,        
+Test Plan and defect report  
+Results from implemented test cases
+Discussions and Conclusions       
+
+
+You are not limited to just using pytest, other helpful libraries to provide and store console output could be found.. Do not be afraid to do some digging 
+and find some helpful tools.      
+          
+      
+        
+         
